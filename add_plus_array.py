@@ -1,5 +1,10 @@
-list=[1,2,3,4,5,6,7]
+import random
+
+list=[]
 sum=0
+
+for i in range(0,10):
+    list.append(random.random())
 
 for x in list:
     sum += x
