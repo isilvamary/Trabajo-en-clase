@@ -9,4 +9,5 @@ if n >= 0:
         val = pre + pos
         pre = pos
         pos = val
+        
 print(res)
